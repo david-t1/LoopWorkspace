@@ -236,7 +236,7 @@ jobs:
           # Adding comments (#) may be useful to easily tell the individual patches apart.
 
 # Module: File: code customization description
-curl https://github.com/T1-David/Module/commit/SHA-1.patch | git apply -v --directory=Module
+curl https://github.com/T1-David/Module/commit/d206432b024279ef710df462b20bd464cd9682d4.patch | git apply -v --directory=Module
 
 profiles \
 
