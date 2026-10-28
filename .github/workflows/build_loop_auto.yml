@@ -238,7 +238,7 @@ jobs:
 # Module: File: code customization description
 curl https://github.com/david-T1/Module/commit/SHA-1.patch | git apply -v --directory=Module
 
-profiles \
+profiles
 
       # Patch Fastlane Match to not print tables
       - name: Patch Match Tables
